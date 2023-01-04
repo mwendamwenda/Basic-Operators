@@ -30,7 +30,7 @@ console.log(ageTokiti >= 18);
 const isFullAge = ageTokiti >= 18;
 
 console.log(now -1992 > now - 1999);
-*/
+
 
 //operators precedence
 
@@ -50,3 +50,33 @@ console.log(x ,y);
 
 const averageAge = (ageMwenda + ageTokiti)/2
 console.log(ageMwenda,ageTokiti ,averageAge)
+*/
+// code challenge
+// 1st data
+const markWeight = 78;
+const markHeight = 1.69;
+markBmi = (78)/1.69**2
+console.log(markBmi);
+
+const johnWeight = 92;
+const johnHeight = 1.95;
+johnBmi = (98)/1.95 **2;
+console.log(johnBmi);
+
+const markHigherBmi = markBmi > johnBmi;
+console.log(markHigherBmi);
+
+//2nd data
+const markWeight1 = 95;
+const markHeight1 = 1.88;
+markBmi = (95)/1.88**2
+console.log(markBmi);
+
+
+const johnWeight1 = 85;
+const johnHeight1 = 1.76;
+johnBmi = (85)/1.76**2;
+console.log(johnBmi);
+
+const markHigherBmi1 = markBmi > johnBmi;
+console.log(markHigherBmi);
