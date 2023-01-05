@@ -50,7 +50,7 @@ console.log(x ,y);
 
 const averageAge = (ageMwenda + ageTokiti)/2
 console.log(ageMwenda,ageTokiti ,averageAge)
-*/
+
 // code challenge
 // 1st data
 const markWeight = 78;
@@ -80,3 +80,27 @@ console.log(johnBmi);
 
 const markHigherBmi1 = markBmi > johnBmi;
 console.log(markHigherBmi);
+*/
+// template literal
+
+const firstName = 'milam';
+const job = 'stuadent';
+const birthYear = 1992;
+const year = 2037;
+
+
+const mwenda = "i'm" + firstName + ',a' +(year -birthYear) + 'years old' + ' '+ job+'!';
+console.log(mwenda);
+
+const mwendaNew = `I'm ${firstName}, a ${year - birthYear} years old ${job} !`;
+console.log(mwendaNew);
+
+console.log(`any regular string`);
+
+// multiple lines strings
+console.log('string with/n/')// using a backslash
+console.log('string');
+
+console.log(`string
+multiple 
+lines`)//using template literal we can ujust create multiple lines by hiting enter.
