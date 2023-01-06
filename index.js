@@ -104,7 +104,7 @@ console.log('string');
 console.log(`string
 multiple 
 lines`)//using template literal we can ujust create multiple lines by hiting enter.
-*/
+
 
 const age = 16;
 const isOldEnough = age >= 18;
@@ -124,3 +124,15 @@ if (birthYear <= 2000){
     centuary = 21;
 }
 console.log(centuary);
+*/
+
+//code challenge
+
+const markBmi = (78)/1.69**2
+const johnBmi = (98)/1.95 **2;
+
+if(markBmi>= johnBmi){
+    console.log(`markBmi (${markBmi}) is higher than johns!(${johnBmi})`);
+}else{
+    console.log(`johns bmi is higher than mark`);
+}
