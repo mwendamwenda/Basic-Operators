@@ -80,7 +80,7 @@ console.log(johnBmi);
 
 const markHigherBmi1 = markBmi > johnBmi;
 console.log(markHigherBmi);
-*/
+
 // template literal
 
 const firstName = 'milam';
@@ -104,3 +104,23 @@ console.log('string');
 console.log(`string
 multiple 
 lines`)//using template literal we can ujust create multiple lines by hiting enter.
+*/
+
+const age = 16;
+const isOldEnough = age >= 18;
+
+if(age >= 18){
+    console.log('peter can start driving license');
+}else  {
+    const yearsLeft = 18 - age;
+    console.log(`peter is too young to start driving wait for ${yearsLeft} years.`);
+}
+
+const birthYear = 1991;
+let centuary;
+if (birthYear <= 2000){
+     centuary = 20;
+}else{
+    centuary = 21;
+}
+console.log(centuary);
